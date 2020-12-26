@@ -1,10 +1,10 @@
 A Hello World program written in rust language.
 
-###Build
+### Build
 `cargo clean && cargo build`
 
-###Release Build
+### Release Build
 `cargo clean && cargo build --release`
 
-###Run
+### Run
 `cargo run`
