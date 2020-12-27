@@ -1,5 +1,9 @@
 use chrono::Utc;
 
 fn main() {
-    println!("{}: Hello world!!!", Utc::now());
+    println!("{}: {}", timestamp(), "Hello World!!!");
+}
+
+fn timestamp() -> String {
+    Utc::now().to_string()
 }

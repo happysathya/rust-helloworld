@@ -8,3 +8,9 @@ A Hello World program written in rust language.
 
 ### Run
 `cargo run`
+
+### Run unit tests
+`cargo test`
+
+### Run unit tests with stacktrace display
+`RUST_BACKTRACE=1 cargo test`
